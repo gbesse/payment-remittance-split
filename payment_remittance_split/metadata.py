@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Réconcilier affectations de règlements et reliquats', 'en': 'Reconcile remittance allocations and remaining balances', 'es': 'Conciliar asignaciones de pagos y saldos restantes'}

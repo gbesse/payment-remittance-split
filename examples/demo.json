@@ -1,0 +1,31 @@
+{
+  "currency": "EUR",
+  "invoices": [
+    {
+      "id": "i1",
+      "amount": "60.00"
+    },
+    {
+      "id": "i2",
+      "amount": "40.00"
+    }
+  ],
+  "payments": [
+    {
+      "id": "p",
+      "amount": "90.00"
+    }
+  ],
+  "allocations": [
+    {
+      "invoice": "i1",
+      "payment": "p",
+      "amount": "60.00"
+    },
+    {
+      "invoice": "i2",
+      "payment": "p",
+      "amount": "30.00"
+    }
+  ]
+}

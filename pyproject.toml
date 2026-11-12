@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "payment-remittance-split"
+version = "0.1.0a1"
+description = "FR: Réconcilier affectations de règlements et reliquats | EN: Reconcile remittance allocations and remaining balances | ES: Conciliar asignaciones de pagos y saldos restantes"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+payment-remittance-split = "payment_remittance_split.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["payment_remittance_split*"]
